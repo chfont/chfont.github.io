@@ -1,10 +1,13 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Rowan
+description: A small assembly language and virtual machine runtime. Developed in C++
 img:
 importance: 3
 category: fun
+redirect: https://github.com/chfont/rowanvm
+language: C++
+color: '#f34b7d'
 ---
 
 Every project has a beautiful feature showcase page.
