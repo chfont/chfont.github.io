@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Rowan
-description: A small assembly language and virtual machine runtime. Developed in C++
+title: Hermes
+description: A reminder daemon for Linux, to allow for personal desktop reminders
 img:
-importance: 1
+importance: 2
 category: fun
-redirect: https://github.com/chfont/rowanvm
-language: C++
-color: '#f34b7d'
+redirect: https://github.com/chfont/hermes
+language: Rust
+color: '#dea584'
 ---
 
 Every project has a beautiful feature showcase page.
