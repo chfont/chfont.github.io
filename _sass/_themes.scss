@@ -2,7 +2,7 @@
  * Themes
  ******************************************************************************/
  
-:root {
+ html[data-theme='light'] {
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
@@ -14,6 +14,7 @@
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0,0,0,.1);
+  --global-name-color: #4383b8;
 
   .fa-sun {
     display : none;
@@ -25,7 +26,7 @@
   }
 }
 
-html[data-theme='dark'] {
+:root {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
@@ -37,6 +38,7 @@ html[data-theme='dark'] {
   --global-footer-link-color: #{$black-color};
   --global-distill-app-color: #{$grey-color-light};
   --global-divider-color: #424246;
+  --global-name-color: #88de4c;
 
   .fa-sun {
     padding-left: 10px;
