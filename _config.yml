@@ -68,10 +68,9 @@ wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
-rss_icon: true
 
 contact_note: >
-  You can contact me at cfont85 AT lsu.edu
+  You can contact me at Firstname.Lastname AT colorado.edu
 
 google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
 google_site_verification:  # your google-site-verification ID (Google Search Console)

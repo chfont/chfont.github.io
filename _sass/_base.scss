@@ -131,15 +131,15 @@ blockquote {
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
     &:hover {
-      color: var(--global-hover-color);
+      color: var(--global-name-color);
     }
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
       font-weight: bolder;
-      color: var(--global-theme-color);
+      color: var(--global-name-color);
       &:hover {
-        color: var(--global-hover-color);
+        color: var(--global-name-color);
       }
   }
   .navbar-brand.social {
@@ -562,4 +562,8 @@ html.transition *:after {
   color: var(--global-text-color-light);
   font-size: 0.875rem;
   padding-top: 0.25rem;
+}
+
+.name {
+  color: var(--global-name-color);
 }

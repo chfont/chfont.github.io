@@ -2,22 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: Aspiring Researcher | Student | Tinkerer
+subtitle: Graduate Student | Researcher | Software Tinkerer
 
 profile:
   align: right
-  image: prof_pic.jpg
-  address: Baton Rouge, La, USA
 
 news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello, I'm an undergraduate researcher pursuing a B.S. in Computer Science, as well as Mathematics, with the ambition of pursuing a Ph.D. My research interests primarily lie in <b>Programming Languages</b>, <b>Cybersecurity</b>, and <b>Embedded Systems</b>, and the overlaps between them. In more detail, I'm interested in utilizing programming language design and techniques in order to improve the security of cyber-physical systems, which are traditionally written in low-level languages with weak guarantees of safety.
+Hello, I'm a graduate student pursuing a Ph.D. in Computer Science at CU Boulder, more specifically in the area of formal verification and its surrounding fields. My interests include formal verification, logic systems, and type theory, and how we can utilize these in order to improve the security and correctness of systems, especially cyber-physical or distributed systems such as robots, or industrial control systems.
 
-Currently, I do research with the [IntelliSys Lab](https://intellisys.haow.ca/) at LSU, working on optimizations for serverless computing. 
+Previously, I received a B.S. in Computer Science, as well as Mathematics, from Louisiana State University. This is where I started my research career, working with professors in Computer Science as well as Electrical Engineering, particulary in static analysis and serverless computing. My serverless computing work was done with the IntelliSys Lab, largerly focused on optimization in this area.
 
-Outside of research, I program as a hobby, and am interested in both low-level systems programmming, as well as working with functional programming languages to solve problems I find interesting. Overall I'm passionate about learning, and gaining new insight.
-
+Outside of research, I play chess, and program as a hobby. I'm interested in both low-level systems programming, as well as using functional programming languages to solve problems I find interested. Overall I'm passionate about learning and gaining new insight. I also enjoy reading, in particular science fiction.
 
