@@ -16,5 +16,5 @@ Hello, I'm a graduate student pursuing a Ph.D. in Computer Science at CU Boulder
 
 Previously, I received a B.S. in Computer Science, as well as Mathematics, from Louisiana State University. This is where I started my research career, working with professors in Computer Science as well as Electrical Engineering, particulary in static analysis and serverless computing. My serverless computing work was done with the [IntelliSys Lab](https://intellisys.haow.ca/), largerly focused on optimization in this area.
 
-Outside of research, I play chess, and program as a hobby. I'm interested in both low-level systems programming, as well as using functional programming languages to solve problems I find interested. Overall I'm passionate about learning and gaining new insight. I also enjoy reading, in particular science fiction.
+Outside of research, I play chess, and program as a hobby. I'm interested in both low-level systems programming, as well as using functional programming languages to solve problems I find interesting. Overall I'm passionate about learning and gaining new insight. I also enjoy reading, in particular science fiction.
 
