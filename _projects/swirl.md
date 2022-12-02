@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Hermes
-description: A reminder daemon for Linux, to allow for personal desktop reminders
+title: Swirl
+description: A model checker for the S1S fragment of logic.
 img:
-importance: 3
+importance: 2
 category: fun
-redirect: https://github.com/chfont/hermes
-language: Rust
-color: '#dea584'
+redirect: https://github.com/chfont/swirl
+language: Python
+color: '#3572A5'
 ---
 
 Every project has a beautiful feature showcase page.

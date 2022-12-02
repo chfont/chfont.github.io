@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Rowan
-description: A small assembly language and virtual machine runtime. Developed in C++
+description: A small assembly language and virtual machine runtime.
 img:
 importance: 1
 category: fun
