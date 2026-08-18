@@ -27,16 +27,16 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
 
     <!-- Code Syntax Highlighting -->
-    <link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+    <link rel="stylesheet" href="codetheme.css" />
 
     <!-- Styles -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22></text></svg>">
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://chfont.github.io/">
+    <link rel="stylesheet" href="/pages/chfont/assets/css/main.css">
+    <link rel="canonical" href="https://chfont.github.io/pages/chfont/">
 
     <!-- Dark Mode -->
-    <script src="/assets/js/theme.js"></script>
-    <script src="/assets/js/dark_mode.js"></script>
+    <script src="/pages/chfont/assets/js/theme.js"></script>
+    <script src="/pages/chfont/assets/js/dark_mode.js"></script>
   </head>
 
   <!-- Body -->
@@ -62,13 +62,19 @@
 
               <!-- About -->
               <li class="nav-item active">
-                <a class="nav-link" href="/">about<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/pages/chfont/">about<span class="sr-only">(current)</span></a>
               </li>
               
 
               <!-- Other pages -->
               <li class="nav-item ">
-                <a class="nav-link" href="/projects/">projects</a>
+                <a class="nav-link" href="/pages/chfont/projects/">projects</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/pages/chfont/research/">research</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/pages/chfont/teaching/">teaching</a>
               </li>
 
               <!-- Toogle theme mode -->
@@ -100,11 +106,11 @@
 <figure>
 
   <picture>
-    <source media="(max-width: 480px)" srcset="/assets/img/pfp-480.webp"></source>
-    <source media="(max-width: 800px)" srcset="/assets/img/pfp-800.webp"></source>
-    <source media="(max-width: 1400px)" srcset="/assets/img/pfp-1400.webp"></source>
+    <source media="(max-width: 480px)" srcset="/pages/chfont/assets/img/pfp-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/pages/chfont/assets/img/pfp-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/pages/chfont/assets/img/pfp-1400.webp"></source>
     <!-- Fallback to the original file -->
-    <img class="img-fluid z-dept-1 rounded" src="/assets/img/pfp.jpg">
+    <img class="img-fluid z-dept-1 rounded" src="/pages/chfont/assets/img/pfp.jpg">
   </picture>
 
 </figure>
@@ -112,11 +118,11 @@
           </div>
 
           <div class="clearfix">
-            <p>Hello, I’m a graduate student pursuing a Ph.D. in Computer Science at CU Boulder, more specifically in the area of formal verification and its surrounding fields, as a member of the <a href="https://plv.colorado.edu" target="_blank" rel="noopener noreferrer">PLV</a> lab. My interests include formal verification, logic systems, and type theory, and how we can utilize these in order to improve the security and correctness of systems, especially cyber-physical or distributed systems such as robots, or industrial control systems.</p>
+            <p>Hello! I’m a Ph.D. student in Computer Science at CU Boulder, and a member of the <a href="https://plv.colorado.edu" target="_blank" rel="noopener noreferrer">Programming Languages and Verification</a> lab. My research focuses on automated verification of programs, specifically distributed and concurrent systems. Broadly, my work is in improving our ability to formally reason about these large, complex systems with non-trivial communication, and then our ability to automate this reasoning.</p>
 
-<p>Previously, I received a B.S. in Computer Science, as well as Mathematics, from Louisiana State University. This is where I started my research career, working with professors in Computer Science as well as Electrical Engineering, particulary in static analysis and serverless computing. My serverless computing work was done with the <a href="https://intellisys.haow.ca/" target="_blank" rel="noopener noreferrer">IntelliSys Lab</a>, largerly focused on optimization in this area.</p>
+<p>Prior to joining CU, I received a B.S. in Computer Science, and in Mathematics, from Louisiana State University, minoring in Robotics Engineering. I began my research career at LSU, focused on static analysis and serverless computing, working with faculty in Computer Science and Electrical Engineering. My serverless computing work was done with the <a href="https://intellisys.haow.ca/" target="_blank" rel="noopener noreferrer">IntelliSys Lab</a>, largely focused on optimization.</p>
 
-<p>Outside of research and work, I enjoying tinkering with hardware, and retrocomputing, because I love the puzzle aspect to programming weak hardware. I also enjoy reading science fiction, and occasionally playing chess.</p>
+<p>Outside of research, I enjoy tinkering with hardware, robotics, and retro-computing. I also do watercolor painting, and reading (mostly science fiction).</p>
 
           </div>
 
@@ -125,6 +131,20 @@
             <h2>news</h2>
             <div class="table-responsive">
               <table class="table table-sm table-borderless"> 
+                <tr>
+                  <th scope="row">Jun 22, 2026</th>
+                  <td>
+                    ArXiv Preprint of DissProve available!
+ 
+                  </td>
+                </tr> 
+                <tr>
+                  <th scope="row">Jan 21, 2025</th>
+                  <td>
+                    Gave talk on ongoing work at Theory and Practice in Static Analysis
+ 
+                  </td>
+                </tr> 
                 <tr>
                   <th scope="row">Jan 5, 2022</th>
                   <td>
@@ -160,7 +180,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2023 Christian  Fontenot. Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
+        © Copyright 2026 Christian  Fontenot. Powered by <a href="http://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
       </div>
     </footer>
@@ -177,12 +197,12 @@
   <!-- Mansory & imagesLoaded -->
   <script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
   <script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-  <script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+  <script defer src="/pages/chfont/assets/js/mansory.js" type="text/javascript"></script>
   
   <!-- Medium Zoom JS -->
   <script src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script>
-  <script src="/assets/js/zoom.js"></script><!-- Load Common JS -->
-  <script src="/assets/js/common.js"></script>
+  <script src="/pages/chfont/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script src="/pages/chfont/assets/js/common.js"></script>
 
   <!-- MathJax -->
   <script type="text/javascript">
