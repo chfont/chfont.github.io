@@ -14,6 +14,4 @@ My research focuses on making formal verification more accessible to software en
 {%- comment -%}
 <div class="publications">
   {% bibliography %}
-</div>
-
 {%- endcomment -%}

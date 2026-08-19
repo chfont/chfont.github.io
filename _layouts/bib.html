@@ -18,7 +18,13 @@
           {{reference}}
         {%- else %}
           <!-- Title -->
-          <div class="title">{{entry.title}}</div>
+          <div class="title">
+            {% if entry.url %}
+              <a href="{{ entry.url }}">{{ entry.title }}</a>
+            {% else %}
+              {{ entry.title }}
+            {% endif %}
+          </div>
           <!-- Author -->
           <div class="author">
           {%- for author in entry.author_array -%}
@@ -75,6 +81,10 @@
             {%- capture entrytype -%}<em>{{entry.journal}}</em>{%- endcapture -%}
           {%- elsif entry.type == "inproceedings" -%}
             {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
+          {%- elsif entry.type == "misc" and entry.booktitle -%}
+            {%- capture entrytype -%}
+              <em>Talk at {{entry.booktitle}}</em>
+            {%- endcapture -%}
           {%- endif -%}
           {%- if entry.month -%}
             {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
@@ -86,6 +96,9 @@
           <div class="periodical">
             {{ periodical | strip }}
           </div>
+          {%- if entry.note -%}
+           {{ entry.note }}
+          {%- endif -%}
         {%- endif %}
         
           <!-- Links/Buttons -->
