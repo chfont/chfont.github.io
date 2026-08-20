@@ -10,14 +10,14 @@ Below is a brief listing of the courses I've worked in as a teaching assistant, 
 
 #### <u>CU Boulder</u>
 
-**\[CSCI 3155 - Programming Languages \]**
+<div class="name">[CSCI 3155 - Programming Languages]</div>
 
 **Teaching Assistant**: Fall 2022, Spring 2023, Fall 2023, Fall 2025, Spring 2026
 
 Led weekly recitation sections of roughly 50 students each semester. Updated course materials to newer versions of Scala, and assisted in new project design.
 
 
-**\[CSCI 3753 - Operating Systems\]**
+<div class="name">[CSCI 3753 - Operating Systems]</div>
 
 **Teaching Assistant**: Fall 2026
 
